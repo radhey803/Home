@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Blog </title>
+</head>
+<body>
+
+    <!-------------------------------------------- HEADER SECTION -->
+    <header class="header" >
+
+      
+        
+        <a href="./index.html" class="logo">
+            <img src="logo.jpg" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="./index.html" class="active">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./products.html">Products</a>
+            <a href="./review.html">Review</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./contact.html">Contact</a>
+            
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="ca1.jpg" alt="menu">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">₹1200 </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="ca2.webp" alt="menu">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">₹3500 </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="ca3.webp" alt="menu">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">₹800 </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="ca4.jpg" alt="menu">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">₹2580 </div>
+                </div>
+            </div>
+            <a href="#" class="btn">check out </a>
+        </div>
+        
+    </header>
+<!-- -------------------------------------------HEADER SECTION -->
+
+<!-- -------------------------------------------BLOG SECTION -->
+<section class="blog" id="blog">
+    <h1 class="heading">our <span>blog</span> </h1>
+    <div class="box-container">
+        <div class="box-full">
+            <div class="image">
+                <img src="b1.jpg"alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Smart lighting</a>
+                <span>by CEO / 11th sep, 2023</span>
+                <p>This is the entry point to the fascinating world of home automation. It lets you control your
+                     home lighting, program lighting scenes, and schedule just with a swipe of a finger
+                    Now sit back comfortably right where you are and watch it create a perfect lighting 
+                    ambience for you, whether it’s bedtime after a long night of binge-watching your favourite Netflix show, a high-octane party time, 
+                    a relaxing Sunday brunch, or a game night with buddies.Smart lighting is Major Role in Home Automation.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box-full">
+            <div class="image">
+                <img src="b2.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Smart Speakers</a>
+                <span>by CEO / 11th sep, 2023</span>
+
+                <p>A smart home is incomplete without smart speakers. 
+
+                    From simple things like playing music to crucial things like connecting with emergency services, smart speakers can do it all.
+                    
+                    Simply use voice commands, and you can expect them to perform a whole range of 
+                    functions – play your favourite playlist, tell real-time weather forecast, control lights,
+                     order products, search the internet, set reminders and calendars, and many other things 
+                    depending on how many other smart home devices it is connected to.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box-full">
+            <div class="image">
+                <img src= "b3.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Smart Security</a>
+                <span>by CEO / 11th sep, 2023</span>
+
+                <p>
+                    Its interconnected camera and motion sensors system will help you keep a watchful
+                     eye on your home using your smartphone even while you’re away. 
+                    With the indoor system, you can monitor your children, pets, and aged parents, and 
+                    the outdoor system can catch any suspicious activity around the house.
+                    The best part is the security devices are not standalone; the IFTTT technology enables
+                     them to work together in tandem. 
+                    That means when the motion detector triggers a security light, which triggers the camera
+                     and sends you a notification to your smartphone.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- -------------------------------------------BLOG SECTION -->
+
+<!-- -------------------------------------------FOOTER SECTION -->
+<section class="footer">
+    <div class="search">
+        <input type="text" class="search-input" placeholder="Search">
+        <button class="btn btn-primary">search</button>
+    </div>
+    <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+    <div class="links">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#blog">blog</a>
+
+        <a href="#contact">contact</a>
+    </div>
+    <div class="end">
+        © 2023 Smart Home. All rights reserved. Privacy Policy Terms of Use
+    </div>
+</section>
+    <!-- -------------------------------------------FOOTER SECTION -->
+
+<script src="./script.js"></script>
+
+</body>
+</html>
